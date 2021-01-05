@@ -39,7 +39,7 @@ public class ScoreManager : MonoBehaviour
             scoreIn =3;
         }
     }
-    //當碰撞物件離開碰撞範圍時執行一次
+    //當碰撞物件離開碰撞範圍時執行一次 
     private void OnTriggerExit(Collider other)
     {
         if (other.transform.root .name=="Player")
