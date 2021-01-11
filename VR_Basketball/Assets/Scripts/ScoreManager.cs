@@ -47,7 +47,7 @@ public class ScoreManager : MonoBehaviour
             //將投進的分數改為兩分
             scoreIn = 2;
         }  
-    }
+    } 
     ///<summary>
     ///加分數
     ///</summary>
